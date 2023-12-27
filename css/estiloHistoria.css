@@ -23,3 +23,9 @@ body {
     width: 662px;
     align-items: center;
 }
+
+#imagemApertoDeMao {
+    width: 400px;
+    margin: 20px auto 0px auto;
+    display: block;
+}
