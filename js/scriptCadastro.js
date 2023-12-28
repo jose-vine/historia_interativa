@@ -72,7 +72,7 @@ if (botaoFinalizar) {
             usuario.coisaLouca = inputCoisaLouca.value;
             usuario.sonhoTer = inputSonho.value;
             usuario.profissaoAlmejada = inputProfissao.value;
-            usuario.LugarTrabalho = inputLugarTrabalho.value;
+            usuario.lugarTrabalho = inputLugarTrabalho.value;
             usuario.algoRefazer = inputAlgoRefazer.value;
             usuario.alguemInsuportavel = inputAlguemInsuportavel.value;
 
