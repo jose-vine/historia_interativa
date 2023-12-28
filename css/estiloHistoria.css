@@ -17,15 +17,38 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
     border-radius: 20px;
     padding: 40px;
     width: 662px;
     align-items: center;
+    color: white;
 }
 
 #imagemApertoDeMao {
     width: 400px;
     margin: 20px auto 0px auto;
     display: block;
+}
+
+#paragrafoHistoria {
+    font-size: 1.2em;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+
+#mensagemBoasVindas {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#botaoSimbora {
+    background: white;
+    float: right;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;    
 }
