@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(4, 4, 90);
+}
+
+.conteudo_principal {
+    border-radius: 10px;
+    width: 700px;
+    height: 850px;
+    margin: auto;
+}
+
+.cabecalho {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+.fundo_tabuleiro {
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.tabuleiro {
+    width: 580px;
+    margin: auto;
+    padding: 35px 0px;
+}
+
+.tabuleiro img {
+    padding: 0px;
+    position: absolute;
+    transition: transform 0.5s;
+}
+
+.tabuleiro img:hover {
+    transform: rotateY(90deg);
+}
+
+.carta {
+    width: 120px;
+    height: 163px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.frente_azul {
+    background-color: rgb(4, 4, 90);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 163px;
+    text-align: center;
+    width: 120px;
+    height: 163px;
+}
+
+.frente_vermelha {
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 163px;
+    text-align: center;
+    width: 120px;
+    height: 163px;
+}
+
+.frente_verde {
+    background-color: green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 163px;
+    text-align: center;
+    width: 120px;
+    height: 163px;
+}
+
+.frente_preta {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 163px;
+    text-align: center;
+    width: 120px;
+    height: 163px;
+}
+
+.frente_laranja {
+    background-color: orangered;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 163px;
+    text-align: center;
+    width: 120px;
+    height: 163px;
+}
+
+.frente_roxa {
+    background-color: violet;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 163px;
+    text-align: center;
+    width: 120px;
+    height: 163px;
+}
+
+.frente_cinza {
+    background-color: grey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 163px;
+    text-align: center;
+    width: 120px;
+    height: 163px;
+}
+
+.frente_amarela {
+    background-color: yellow;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 163px;
+    text-align: center;
+    width: 120px;
+    height: 163px;
+}
