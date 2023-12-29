@@ -1,10 +1,9 @@
 const usuario = JSON.parse(localStorage.getItem('usuarioLogado'));
 
 const tituloHistoriaUm = document.querySelector('#tituloHistoriaUm');
+
 const paragrafoHistoriaDois = document.querySelectorAll('.paragrafoHistoriaDois');
 const paragrafoHistoriaTres = document.querySelectorAll('.paragrafoHistoriaTres');
-
-console.log(paragrafoHistoriaTres)
 
 const botaoSimbora = document.querySelector("#botaoSimbora");
 const botaoContinuar = document.querySelector("#botaoContinuar");
@@ -43,7 +42,7 @@ if (paragrafoHistoriaTres) {
         } else if (i == 4) {
             paragrafoHistoriaTres[i].innerHTML = `- 1 ponto a menos para cada erro (pares desiguais de cartas)`;
         } else if (i == 5) {
-            paragrafoHistoriaTres[i].innerHTML = `Ao final do jogo, você terá acesso a um placar que compara a sua pontuação com os demais usuários cadastrados na nossa página interativa. Portanto, acredito que já temos tudo para começar, basta se direcionar para a próxima página. Está pronto, ${usuario.apelido}?`;
+            paragrafoHistoriaTres[i].innerHTML = `Ao final do jogo, você terá acesso a um placar que compara a sua pontuação com a dos demais usuários cadastrados na nossa página interativa. Portanto, acredito que já temos tudo para começar, basta se direcionar para a próxima página. Está pronto, ${usuario.apelido}?`;
         }
     }
 }
