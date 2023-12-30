@@ -38,12 +38,12 @@ body {
     transform: rotateY(180deg);
 }
 
-.frente {
+.verso {
     background-image: url(../imagens/verso_carta.jpg);
     background-size: cover;
 }
 
-.verso {
+.frente {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
@@ -67,34 +67,34 @@ body {
     transition: .5s;
 }
 
-.verso_azul {
+.frente_azul {
     background-color: rgb(4, 4, 90);
 }
 
-.verso_vermelho {
+.frente_vermelha {
     background-color: red;
 }
 
-.verso_verde {
+.frente_verde {
     background-color: green;
 }
 
-.verso_preto {
+.frente_preta {
     background-color: black;
 }
 
-.verso_laranja {
+.frente_laranja {
     background-color: orangered;
 }
 
-.verso_roxo {
+.frente_roxa {
     background-color: violet;
 }
 
-.verso_cinza {
+.frente_cinza {
     background-color: grey;
 }
 
-.verso_amarelo {
+.frente_amarela {
     background-color: yellow;
 }
