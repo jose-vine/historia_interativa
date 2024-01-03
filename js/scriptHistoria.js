@@ -61,6 +61,6 @@ if (botaoContinuar) {
 
 if (botaoVamos) {
     botaoVamos.addEventListener('click', ()=> {
-        window.location.href = '#';
+        window.location.href = 'jogo-da-memoria/index.html';
     });
 }
