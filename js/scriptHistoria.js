@@ -4,10 +4,13 @@ const tituloHistoriaUm = document.querySelector('#tituloHistoriaUm');
 
 const paragrafoHistoriaDois = document.querySelectorAll('.paragrafoHistoriaDois');
 const paragrafoHistoriaTres = document.querySelectorAll('.paragrafoHistoriaTres');
+const paragrafoHistoriaQuatro = document.querySelectorAll('.paragrafoHistoriaQuatro');
 
 const botaoSimbora = document.querySelector("#botaoSimbora");
 const botaoContinuar = document.querySelector("#botaoContinuar");
 const botaoVamos = document.querySelector("#botaoVamos");
+const botaoProsseguir = document.querySelector("#botaoProsseguir");
+const botaoFinalizar = document.querySelector("#botaoFinalizar");
 
 if (tituloHistoriaUm) {
     tituloHistoriaUm.innerHTML = `Seja bem-vindo(a), ${usuario.nome}!`;
@@ -47,6 +50,18 @@ if (paragrafoHistoriaTres) {
     }
 }
 
+if (paragrafoHistoriaQuatro) {
+    for (let i = 0; i < paragrafoHistoriaQuatro.length; i++) {
+        if (i == 0) {
+            paragrafoHistoriaQuatro[i].innerHTML = `Muito bem, ${usuario.apelido}, você deu o seu máximo para pontuar no jogo da memória.`;
+        } else if (i == 1) {
+            paragrafoHistoriaQuatro[i].innerHTML = `Em forma de comemoração, você e seu melhor amigo, ${usuario.melhorAmigo}, foram em uma lanchonete comer ${usuario.comidaFavorita}. Naquele ambiente, estava tocando ${usuario.musicaFavorita} e, enquanto apreciava a música, você dialogava com o seu amigo. O usuário chega a comentar sobre o seu sonho de ter um(a) ${usuario.sonhoTer} e que gostaria de fazer alguma coisa louca, como ${usuario.coisaLouca}.`;
+        } else if (i == 2) {
+            paragrafoHistoriaQuatro[i].innerHTML = `Em seguida, você convida ${usuario.melhorAmigo} para ir a sua casa. Vocês assistem ${usuario.ProducaoAVFavorita} enquanto comem uma pipoca.`;
+        }
+    }
+}
+
 if (botaoSimbora) {
     botaoSimbora.addEventListener('click', ()=> {
         window.location.href = 'historiaDois.html';
@@ -62,5 +77,17 @@ if (botaoContinuar) {
 if (botaoVamos) {
     botaoVamos.addEventListener('click', ()=> {
         window.location.href = 'jogo-da-memoria/index.html';
+    });
+}
+
+if (botaoProsseguir) {
+    botaoProsseguir.addEventListener('click', ()=> {
+        window.location.href = 'historiaCinco.html';
+    });
+}
+
+if (botaoFinalizar) {
+    botaoFinalizar.addEventListener('click', ()=> {
+        window.location.href = 'portfolio.html';
     });
 }

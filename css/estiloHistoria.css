@@ -35,6 +35,11 @@ body {
     height: 500px;
 }
 
+#conteudoQuatro {
+    width: 900px;
+    height: 450px;
+}
+
 .conteudo {
     transform: translate(-50%, -50%);
     position: absolute;
@@ -45,6 +50,7 @@ body {
 .botao {
     position: absolute;
     background-color: white;
+    cursor: pointer;
     border-radius: 20px;
     border: 0px;
     width: 180px;

@@ -16,7 +16,7 @@ botaoEntrar.addEventListener('click', ()=>{
         }
 
         if (usuarioExiste) {
-            window.location.href = 'historia.html';
+            window.location.href = 'historiaUm.html';
         } else {
             mensagemErro.innerHTML = 'Esse apelido não existe!';
         }
