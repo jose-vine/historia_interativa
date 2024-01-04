@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/imagem_fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box_um {
+    width: 500px;
+    height: auto;
+    background-color: rgb(189, 80, 189);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.box_dois {
+    width: 500px;
+    height: 300px;
+}
+
+.box_tres {
+    width: 500px;
+    height: auto;
+    background-color: rgb(78, 155, 228);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.box_um h1, .box_tres h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.box_um p, .box_tres p {
+    text-align: justify;
+}
+
+.texto_completo_box_um, .texto_completo_box_tres {
+    padding: 15px;
+    border: 5px solid;
+    margin: 15px;
+}
+
+.texto_completo_box_um {
+    border-color: rgb(0, 27, 85);
+    border-radius: 10px;
+}
+
+.texto_completo_box_tres {
+    border-color: red;
+    border-radius: 10px;
+}

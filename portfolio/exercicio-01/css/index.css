@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cc6f31;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.corpo-do-site {
+    width: 1000px;
+    height: auto;
+    margin: 20px auto;
+    background-color: #620e04;
+}
+
+.conteudo-do-site {
+    height: 1200px;
+    padding: 40px;
+}
+
+.cabecalho {
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.primeira-coluna {
+    float: left;
+}
+
+.segunda-coluna {
+    float: right;
+}
+
+.imagens, .informacoes-da-musica {
+    list-style: none;
+}
+
+.imagens li {
+    margin-bottom: 20px;
+}
+
+.informacoes-da-musica li {
+    margin-bottom: 10px;
+}
+
+.titulo-letra {
+    margin: 20px 0px;
+}
+
+.estrofe {
+    margin-bottom: 20px;
+}
+
+.rodape {
+    background-color: #f1c188;
+    color: black;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}

@@ -1,0 +1,41 @@
+body {
+    background-image: url(../img/folha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tituloHistoria {
+    text-align: center;
+}
+
+.letraInicial {
+    font-size: 3em;
+}
+
+.divXadrez, .divRadio {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.divXadrez {
+    background-image: url(../img/xadrez.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+}
+
+.divRadio {
+    background-image: url(../img/radio.png);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.divXadrez:hover {
+    z-index: 0;
+}
+
+.imagens:hover {
+    .divXadrez {z-index: 0;}
+}
